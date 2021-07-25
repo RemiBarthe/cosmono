@@ -4,17 +4,22 @@
     event="scroll"
   >
     <KinesisElement
-      :strength="image.strength"
-      class="absolute bottom-0"
+      tag="img"
       v-for="(image, id) in images"
       :key="id"
-    >
-      <img
-        alt="background parallax"
-        class="min-h-screen max-w-none min-w-screen h-screen 2xl:h-full-120 3xl:h-full-140"
-        :src="require(`../assets/images/banner/${image.name}`)"
-      />
-    </KinesisElement>
+      :strength="image.strength"
+      :src="require(`../assets/images/banner/${image.name}`)"
+      class="absolute bottom-0 md:left-0 -left-80 min-h-screen max-w-none min-w-screen h-screen 2xl:h-full-120 3xl:h-full-140"
+      :style="`z-index:${id}`"
+    />
+
+    <KinesisElement
+      tag="img"
+      :strength="1100"
+      :src="require('../assets/images/logo-blue-cosmono.svg')"
+      class="absolute left-0 right-0 ml-auto mr-auto mt-60 z-10 w-60 md:w-80"
+      style="z-index:1"
+    />
   </KinesisContainer>
 </template>
 
