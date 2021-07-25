@@ -20,14 +20,14 @@
         <br />
         <button
           class="
-            bg-yellowPrincipal
+            bg-primary
             text-black
             font-sans:OpenSans font-bold
             absolute
             justify-center
             py-2
             px-4
-            border-solid border-yellowSecondary border-5
+            border-solid border-stroke border-5
             rounded-full
           "
         >
