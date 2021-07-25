@@ -47,8 +47,8 @@ module.exports = {
       5: "1.25rem",
       6: "1.5rem",
       7: "1.75rem",
-      8: "2rem",
-      9: "2.25rem",
+      8: "1.875rem",
+      9: "2rem",
       10: "2.5rem",
       11: "2.75rem",
       12: "3rem",
@@ -256,48 +256,22 @@ module.exports = {
       DEFAULT: "1"
     },
     fontFamily: {
-      sans: [
-        "ui-sans-serif",
-        "system-ui",
-        "-apple-system",
-        "BlinkMacSystemFont",
-        '"Segoe UI"',
-        "Roboto",
-        '"Helvetica Neue"',
-        "Arial",
-        '"Noto Sans"',
-        "sans-serif",
-        '"Apple Color Emoji"',
-        '"Segoe UI Emoji"',
-        '"Segoe UI Symbol"',
-        '"Noto Color Emoji"'
+      title: [
+        "Amaranth",
+        "sans-serif"
       ],
-      serif: [
-        "ui-serif",
-        "Georgia",
-        "Cambria",
-        '"Times New Roman"',
-        "Times",
-        "serif"
-      ],
-      mono: [
-        "ui-monospace",
-        "SFMono-Regular",
-        "Menlo",
-        "Monaco",
-        "Consolas",
-        '"Liberation Mono"',
-        '"Courier New"',
-        "monospace"
+      text: [
+        "Open Sans",
+        "sans-serif"
       ]
     },
     fontSize: {
       xs: ["0.75rem", { lineHeight: "1rem" }],
       sm: ["0.875rem", { lineHeight: "1.25rem" }],
       base: ["1rem", { lineHeight: "1.5rem" }],
-      baselg: ["1.25rem", { lineHeight: "1.5rem" }],
+      "base-lg": ["1.25rem", { lineHeight: "1.5rem" }],
       title: ["2rem", { lineHeight: "2.5rem" }],
-      titlelg: ["2.5rem", { lineHeight: "2.75rem" }]
+      "title-lg": ["2.5rem", { lineHeight: "2.75rem" }]
     },
     fontWeight: {
       thin: "100",

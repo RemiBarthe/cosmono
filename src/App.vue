@@ -1,19 +1,19 @@
 <template>
-  <ParallaxBanner />
-  <div class="bg-dark w-full h-full absolute">
-    <HomePage />
+  <div class="bg-dark">
+    <ParallaxBanner />
+    <CosmonoAdventure />
   </div>
 </template>
 
 <script>
 import ParallaxBanner from "./components/ParallaxBanner.vue";
-import HomePage from "./components/HomePage.vue";
+import CosmonoAdventure from "./components/CosmonoAdventure.vue";
 
 export default {
   name: "App",
   components: {
     ParallaxBanner,
-    HomePage
+    CosmonoAdventure
   }
 };
 </script>
