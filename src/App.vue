@@ -1,16 +1,18 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="bg-blueBackground w-full h-full absolute">
+    <HomePage />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HomePage from "./components/HomePage.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    HomePage
   }
-}
+};
 </script>
 
 <style>

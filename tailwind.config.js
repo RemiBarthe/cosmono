@@ -26,7 +26,10 @@ module.exports = {
       indigo: colors.indigo,
       purple: colors.violet,
       pink: colors.pink,
-      terence: '#14ff33'
+      yellowPrincipal: "#FED92F",
+      yellowSecondary: "#3C3F2D",
+      blueBackground: "#151F2D"
+
     },
     spacing: {
       px: '1px',
@@ -155,6 +158,7 @@ module.exports = {
       0: '0px',
       2: '2px',
       4: '4px',
+      5: '5px',
       8: '8px',
     },
     boxShadow: {
