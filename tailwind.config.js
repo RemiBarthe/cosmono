@@ -444,6 +444,8 @@ module.exports = {
       "4/6": "66.666667%",
       "5/6": "83.333333%",
       full: "100%",
+      "full-120": "120vh",
+      "full-140": "140vh",
       screen: "100vh"
     }),
     inset: (theme, { negative }) => ({
