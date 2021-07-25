@@ -1,17 +1,17 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ParallaxBanner />
+  <div class="h-screen w-screen bg-dark"></div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ParallaxBanner from "./components/ParallaxBanner.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    ParallaxBanner
   }
-}
+};
 </script>
 
-<style>
-</style>
+<style></style>
