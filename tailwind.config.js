@@ -31,7 +31,8 @@ module.exports = {
       secondary: "#5D592D",
       stroke: "#3C3F2D",
       dark: "#151F2D",
-      orange: "#f6b42c"
+      orange: "#f6b42c",
+      "light-dark": "#202A38"
     },
     spacing: {
       px: "1px",
