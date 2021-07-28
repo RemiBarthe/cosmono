@@ -12,9 +12,9 @@
       pb-6
     "
   >
-    <h1 class="font-title text-title md:text-title-lg mb-4 md:mb-5">
+    <h2 class="font-title text-title md:text-title-lg mb-4 md:mb-5">
       Monte à bord du vaiseau
-    </h1>
+    </h2>
     <p class="mb-4 md:mb-5">
       Que tu aies une idée de projet folle.<br />Que tu aies envie d’apprendre.
       <br />Que tu désires être un pionnier ou un explorateur.<br />
