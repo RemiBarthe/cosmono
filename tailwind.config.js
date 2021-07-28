@@ -69,7 +69,8 @@ module.exports = {
       64: "16rem",
       72: "18rem",
       80: "20rem",
-      96: "24rem"
+      96: "24rem",
+      500: "31rem"
     },
     animation: {
       none: "none",
@@ -154,7 +155,7 @@ module.exports = {
       sm: "0.125rem",
       DEFAULT: "0.25rem",
       md: "0.375rem",
-      lg: "0.5rem",
+      lg: "0.625rem",
       xl: "0.75rem",
       "2xl": "1rem",
       "3xl": "1.5rem",
@@ -281,7 +282,11 @@ module.exports = {
       black: "900"
     },
     gap: (theme) => theme("spacing"),
-    gradientColorStops: (theme) => theme("colors"),
+    gradientColorStops: (theme) => ({
+      ...theme("colors"),
+      "black-03": "rgba(0, 0, 0, 0.3)",
+      "black-07": "rgba(0, 0, 0, 0.7)"
+    }),
     gridAutoColumns: {
       auto: "auto",
       min: "min-content",
