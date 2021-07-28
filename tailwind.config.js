@@ -68,7 +68,8 @@ module.exports = {
       64: "16rem",
       72: "18rem",
       80: "20rem",
-      96: "24rem"
+      96: "24rem",
+      500: "31rem"
     },
     animation: {
       none: "none",
@@ -152,7 +153,7 @@ module.exports = {
       sm: "0.125rem",
       DEFAULT: "0.25rem",
       md: "0.375rem",
-      lg: "0.5rem",
+      lg: "0.625rem",
       xl: "0.75rem",
       "2xl": "1rem",
       "3xl": "1.5rem",
@@ -256,14 +257,8 @@ module.exports = {
       DEFAULT: "1"
     },
     fontFamily: {
-      title: [
-        "Amaranth",
-        "sans-serif"
-      ],
-      text: [
-        "Open Sans",
-        "sans-serif"
-      ]
+      title: ["Amaranth", "sans-serif"],
+      text: ["Open Sans", "sans-serif"]
     },
     fontSize: {
       xs: ["0.75rem", { lineHeight: "1rem" }],
