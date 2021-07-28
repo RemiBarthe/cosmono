@@ -280,7 +280,11 @@ module.exports = {
       black: "900"
     },
     gap: (theme) => theme("spacing"),
-    gradientColorStops: (theme) => theme("colors"),
+    gradientColorStops: (theme) => ({
+      ...theme("colors"),
+      "black-03": "rgba(0, 0, 0, 0.3)",
+      "black-07": "rgba(0, 0, 0, 0.7)"
+    }),
     gridAutoColumns: {
       auto: "auto",
       min: "min-content",
