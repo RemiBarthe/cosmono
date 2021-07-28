@@ -31,7 +31,8 @@ module.exports = {
       secondary: "#5D592D",
       stroke: "#3C3F2D",
       dark: "#151F2D",
-      orange: "#f6b42c"
+      orange: "#f6b42c",
+      "light-dark": "#202A38"
     },
     spacing: {
       px: "1px",
@@ -76,7 +77,8 @@ module.exports = {
       spin: "spin 1s linear infinite",
       ping: "ping 1s cubic-bezier(0, 0, 0.2, 1) infinite",
       pulse: "pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
-      bounce: "bounce 1s infinite"
+      bounce: "bounce 1s infinite",
+      "bounce-slow": "bounce 1.5s infinite"
     },
     backdropBlur: (theme) => theme("blur"),
     backdropBrightness: (theme) => theme("brightness"),
