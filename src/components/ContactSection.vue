@@ -5,11 +5,10 @@
       md:text-base-lg
       text-white
       font-text
+      px-4
       md:px-28
-      md:pt-5
-      p-4
-      md:pb-8
-      pb-6
+      py-6
+      md:py-8
     "
   >
     <h2 class="font-title text-title md:text-title-lg mb-4 md:mb-5">
