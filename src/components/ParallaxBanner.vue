@@ -1,6 +1,6 @@
 <template>
   <KinesisContainer
-    class="bg-orange h-screen w-screen overflow-hidden relative a"
+    class="bg-orange h-screen w-screen overflow-hidden relative"
     event="scroll"
   >
     <KinesisElement
