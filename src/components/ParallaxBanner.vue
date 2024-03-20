@@ -1,6 +1,6 @@
 <template>
   <KinesisContainer
-    class="bg-orange h-screen w-screen overflow-hidden relative"
+    class="bg-orange h-screen w-screen overflow-hidden relative a"
     event="scroll"
   >
     <KinesisElement
@@ -18,7 +18,7 @@
       :strength="1100"
       :src="require('../assets/images/logo-blue-cosmono.svg')"
       class="absolute left-0 right-0 mx-auto mt-60 z-10 w-60 md:w-80"
-      style="z-index:1"
+      style="z-index: 1"
     />
   </KinesisContainer>
 </template>
